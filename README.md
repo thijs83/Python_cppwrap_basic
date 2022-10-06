@@ -21,6 +21,8 @@ Now open the Python_cppwrap_basic folder in VS code en open both the python code
 
 NOTE: It could be that the debugger stops, but it will work if you run it again (play button)!
 
+NOTE: You can only jump to next breakpoint in 
+
 if everything is done correctly, both c++ and python scripts can be debugged.
 
 ![Alt text](images/setup.png?raw=true "Complete setup for debugging")
