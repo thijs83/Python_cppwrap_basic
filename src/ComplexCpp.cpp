@@ -7,7 +7,7 @@
 
 namespace py = pybind11;
 
-double Compute( double x, py::EigenDRef<Eigen::VectorXd> ys ) {
+double Compute( double x, py::EigenDRef<Eigen::VectorXi> ys ) {
 //  std::cout << "x:" << std::setprecision( 16 ) << x << std::endl;
     std::cout << ys.rows() << "/n";
     for( int i = 0; i < ys.rows(); ++i ) {

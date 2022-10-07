@@ -33,9 +33,9 @@ if __name__ == "__main__":
 
     """ We store all args in a array, then pass them into both C++ func and
         python side, to ensure that args for both sides are same. """
-    args = np.ndarray(LOOPS, dtype=np.float64)
+    args = np.ndarray(LOOPS, dtype=np.int32)
     for i in range(LOOPS):
-        args[i] = random.random()
+        args[i] = random.random()*10
 
     print('Args are ready, now start...')
 
